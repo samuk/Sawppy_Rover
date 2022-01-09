@@ -1,4 +1,8 @@
 
+ ![Sawppy offroad](https://github.com/samuk/Sawppy_Rover/blob/main/modifications/Ag/photos/sawppy.png?raw=true)
+
+Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Aussie Sawppy](https://www.youtube.com/watch?v=re9Kwm8ZZak&list=PLlbs2OXYfe416tkqUpA_ianuvqNe2UZme)
+
 # BOM (mostly) open hardware
 
 - ~£400 Open source [Jetson baseboard](https://capablerobot.com/products/nx-baseboard/) start with a Nano compute module, upgrade if needed. 
@@ -9,7 +13,7 @@
 - ~£240 [6x 4108 BLDC motor TBC](https://s.click.aliexpress.com/e/_AE2SCu)
 - ~70 [4 x 35kg servo](https://www.hiwonder.hk/products/hiwonder-hts-35h-high-voltage-bus-servo-35kg-torque-with-data-feedback)
 - ~£100+ Jehu [18650 battery pack](https://jag35.com/collections/pcb-based-products/products/high-power-18650-battery-module-diy-pcb-kit-75x)
-- - ~£170 [ZED-F9P Sparkfun RTK](https://www.ardusimple.com/rtk-open-source-hardware/) Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
+- ~£170 [ZED-F9P Sparkfun RTK](https://www.ardusimple.com/rtk-open-source-hardware/) Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
 
 
 # optional extras
