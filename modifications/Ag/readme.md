@@ -1,5 +1,4 @@
-
- ![Sawppy offroad](https://github.com/samuk/Sawppy_Rover/blob/main/modifications/Ag/photos/sawppy.png?raw=true)
+ [![Sawppy offroad](https://github.com/samuk/Sawppy_Rover/blob/main/modifications/Ag/photos/sawppy.png?raw=true)](https://www.youtube.com/watch?v=kUGr7XmU-Sk)
 
 Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Aussie Sawppy](https://www.youtube.com/watch?v=re9Kwm8ZZak&list=PLlbs2OXYfe416tkqUpA_ianuvqNe2UZme)
 
@@ -16,7 +15,7 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 - ~£170 [ZED-F9P Sparkfun RTK](https://www.ardusimple.com/rtk-open-source-hardware/) Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
 
 
-# optional extras
+# Optional extras
 - ~£100 [Tinkerforge IMU](https://www.tinkerforge.com/en/shop/bricks/imu-v2-brick.html) [ROS2 ](https://discourse.ros.org/t/ros-tinkerforge-imu-v2-bricks-driver/15539)
 - ~£200 Hang a [Nindmani Delta](https://github.com/AutoRoboCulture/nindamani-the-weed-removal-robot)
 - ~£40 Meshtastic for [RTK comms](https://meshtastic.discourse.group/) latency a problem?
@@ -32,13 +31,20 @@ If you're interested in developing Swappy for BLDC/ ROS2 please
 [Comment on OS/ROS2](https://github.com/Roger-random/Sawppy_Rover/discussions/32)
 [Comment on Ag navigation](https://discourse.ros.org/t/navigation-for-precision-farming-in-open-fields/15138/15?u=samuk) 
 
-
 # Notes
 - [ROS2 RTK](https://github.com/aussierobots/ublox_dgnss) - [Teb-Local-Planner](https://github.com/rst-tu-dortmund/teb_local_planner/tree/foxy-devel)
 - [Radxa CM3 module](https://www.cnx-software.com/2021/11/07/radxa-cm3-raspberry-pi-cm4-alternative/) in [Carrier board](https://hackaday.io/project/165108-carrier-board-for-the-raspberry-pi-compute-module)
 - [Robot_localization](https://github.com/cra-ros-pkg/robot_localization/tree/ros2)
 
-# Ag Navigation notes (later)
+# Ag Navigation (later)
+
+Initial use case is:
+
+- 75cm wide deep compost mulch beds. (as common in Agroecological production)
+- Weeding needed in babyleaf lettuce and brassica.
+- Could be direct sown by Sawppy, pehaps line following a strip of tight white tape.
+- Bed layout: <10cm wheel> <22.5 bed area> <10cm wheel> <22.5 bed area> <10cm wheel>
+- Typically 2x rows of crop in each 22.5cm bed area.
 
 ![Visual & ML](https://pbs.twimg.com/media/FIRSEUpXoA8Sf_V?format=jpg&name=900x900)
 
