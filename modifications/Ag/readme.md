@@ -9,9 +9,10 @@
 - ~£240 [6x 4108 BLDC motor TBC](https://s.click.aliexpress.com/e/_AE2SCu)
 - ~70 [4 x 35kg servo](https://www.hiwonder.hk/products/hiwonder-hts-35h-high-voltage-bus-servo-35kg-torque-with-data-feedback)
 - ~£100+ Jehu [18650 battery pack](https://jag35.com/collections/pcb-based-products/products/high-power-18650-battery-module-diy-pcb-kit-75x)
+- - ~£170 [ZED-F9P Sparkfun RTK](https://www.ardusimple.com/rtk-open-source-hardware/) Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
+
 
 # optional extras
-- ~£170 [ZED-F9P Sparkfun RTK](https://www.ardusimple.com/rtk-open-source-hardware/) Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
 - ~£100 [Tinkerforge IMU](https://www.tinkerforge.com/en/shop/bricks/imu-v2-brick.html) [ROS2 ](https://discourse.ros.org/t/ros-tinkerforge-imu-v2-bricks-driver/15539)
 - ~£200 Hang a [Nindmani Delta](https://github.com/AutoRoboCulture/nindamani-the-weed-removal-robot)
 - ~£40 Meshtastic for [RTK comms](https://meshtastic.discourse.group/) latency a problem?
@@ -22,8 +23,10 @@
 - [Swappy ROS2 Rover for Ackerman drive - Subscribes Cmd_vel](https://github.com/mgonzs13/ros2_rover)
 
 # Sign up
-If you're interested in developing Swappy for BLDC/ ROS2 please [comment here](https://github.com/samuk/Sawppy_Rover/discussions)
-
+If you're interested in developing Swappy for BLDC/ ROS2 please 
+[Comment on BLDC/ hardware here](https://github.com/Roger-random/Sawppy_Rover/discussions/30)
+[Comment on OS/ROS2](https://github.com/Roger-random/Sawppy_Rover/discussions/32)
+[Comment on Ag navigation](https://discourse.ros.org/t/navigation-for-precision-farming-in-open-fields/15138/15?u=samuk) 
 
 
 # Notes
