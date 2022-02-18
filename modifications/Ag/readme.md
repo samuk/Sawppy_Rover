@@ -11,8 +11,8 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 - ~£240 [6x 4108 BLDC motor TBC](https://s.click.aliexpress.com/e/_AE2SCu)
 - ~£70 [4 x 35kg servo](https://www.hiwonder.hk/products/hiwonder-hts-35h-high-voltage-bus-servo-35kg-torque-with-data-feedback)
 - ~£100+ Jehu [18650 battery pack](https://jag35.com/collections/pcb-based-products/products/high-power-18650-battery-module-diy-pcb-kit-75x)
-- ~£170 [ZED-F9P Sparkfun RTK](https://www.ardusimple.com/rtk-open-source-hardware/) Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
-- ~£100 [Tinkerforge IMU](https://www.tinkerforge.com/en/shop/bricks/imu-v2-brick.html) [ROS2 ](https://discourse.ros.org/t/ros-tinkerforge-imu-v2-bricks-driver/15539)
+- ~£170 [Ardusimple RTK])(https://www.ardusimple.com/rtk-open-source-hardware/) [ZED-F9P Sparkfun RTK] Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
+- ~£30 [Sparkfun IMU](https://www.sparkfun.com/products/13284) [ROS2 ](https://discourse.ros.org/t/ros-tinkerforge-imu-v2-bricks-driver/15539)
 
 
 # Optional extras
