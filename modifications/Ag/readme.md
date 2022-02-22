@@ -15,31 +15,28 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 - [Tensorflow model to follow crop rows - Outputs Cmd_vel](https://github.com/ANI717/ANI717_Robotics#design-diagram)
 - [Swappy ROS2 Rover for Ackerman drive - Subscribes Cmd_vel](https://github.com/mgonzs13/ros2_rover)
 
-# Initial actuator experiment
+# Initial actuator hardware
 - Linear actuator [openbuilds](https://www.aliexpress.com/item/32838215862.html)
 - IP67 rated [Nema23](https://community.simplefoc.com/t/incremental-encoders/1737/4?u=sam)
 - Laser from [Neje](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
-- [CV datasets](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets)
-- Todo: CV to control robot speed. When green is detected between the crop row; slow/stop, move laser to detected position, burn weed. Then continue.
 
-# Upgrades
+# Initial actuator CV
+- Todo: CV to control robot speed. When green is detected between the crop row; slow/stop, move laser to detected position, burn weed. Then continue.
+- [A Survey of Deep Learning Techniques for Weed Detection from Images 2021](https://arxiv.org/abs/2103.01415)
+- [Artificial intelligence for weed detection](http://ictactjournals.in/paper/IJIVP_Vol_11_Iss_2_Paper_3_2299_2305.pdf)
+- [CV datasets](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets)
+
+# Upgrades (later)
 - ~£780 [6x LEO rover wheels & BLDC](https://www.leorover.tech/shop/rover-wheel-v-2-0-kit) & [BLDC motor TBC](https://forum.fictionlab.pl/t/rover-motor-model/152/4)
 - ~£20 [Open Core running uROS](https://github.com/rosmo-robot/Open-Core-M5stack/blob/main/README.md)
 - ~£90 [3 x dual channel 5A SimpleFOC motor controllers](https://github.com/rosmo-robot/Rosmo_ESC)
 - ~£400 Open source [Jetson baseboard](https://capablerobot.com/products/nx-baseboard/) start with a Nano compute module, upgrade if needed. 
 
-#  Field scale Nav extras
+#  Field Navigation extras (later)
 - ~£170 [Ardusimple RTK](https://www.ardusimple.com/rtk-open-source-hardware/) [ZED-F9P Sparkfun RTK] Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
 - ~£400 [Marvelmind?](https://marvelmind.com/product/starter-set-super-mp-3d/)
 - ~£?00  [Open weeding Delta](https://github.com/Agroecology-Lab/Open-Weeding-Delta)
 - ~£40 Meshtastic for [RTK comms](https://meshtastic.discourse.group/) latency a problem?
-
-# Contribute
-If you're interested in developing Swappy for BLDC/ ROS2 please 
-- [Comment on BLDC/ hardware here](https://github.com/Roger-random/Sawppy_Rover/discussions/30)
-- [Comment on OS/ROS2](https://github.com/Roger-random/Sawppy_Rover/discussions/32)
-- [Comment on Ag navigation](https://discourse.ros.org/t/navigation-for-precision-farming-in-open-fields/15138/15?u=samuk) 
-
 
 # Ag Navigation 
 
@@ -54,7 +51,11 @@ Initial use case is:
 
 The core of this navigation strategy is the VisualServoing 
 
-
+# Contribute
+If you're interested in developing Swappy for BLDC/ ROS2 please 
+- [Comment on BLDC/ hardware here](https://github.com/Roger-random/Sawppy_Rover/discussions/30)
+- [Comment on OS/ROS2](https://github.com/Roger-random/Sawppy_Rover/discussions/32)
+- [Comment on Ag navigation](https://discourse.ros.org/t/navigation-for-precision-farming-in-open-fields/15138/15?u=samuk) 
 
 # Notes
 - [vk-weeder](https://github.com/harsha-vk/weeder_bot) 
