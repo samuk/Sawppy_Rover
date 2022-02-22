@@ -3,28 +3,31 @@
 Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Aussie Sawppy](https://www.youtube.com/watch?v=re9Kwm8ZZak&list=PLlbs2OXYfe416tkqUpA_ianuvqNe2UZme)
 
 # BOM (mostly) open hardware
-
-- ~£400 Open source [Jetson baseboard](https://capablerobot.com/products/nx-baseboard/) start with a Nano compute module, upgrade if needed. 
+- ~£100 Jetson Nano 4GB
 - ~£300 [Swappy/Tenacity rover body](https://github.com/jetdillo/tenacity_rover#readme)
-- ~£20 [Open Core running uROS](https://github.com/rosmo-robot/Open-Core-M5stack/blob/main/README.md)
-- ~£90 [3 x dual channel 5A SimpleFOC motor controllers](https://github.com/rosmo-robot/Rosmo_ESC)
-- ~£240 [6x 4108 BLDC motor TBC](https://s.click.aliexpress.com/e/_AE2SCu)
-- ~£70 [4 x 35kg servo](https://www.hiwonder.hk/products/hiwonder-hts-35h-high-voltage-bus-servo-35kg-torque-with-data-feedback)
+- ~£126 [6 x 360 £21 40kg IP65 servo](https://www.aliexpress.com/item/1005001325059005.html)
+- ~£84 [4 x 180 £21 40kg IP65 servo](https://www.aliexpress.com/item/1005001325059005.html)
 - ~£100+ Jehu [18650 battery pack](https://jag35.com/collections/pcb-based-products/products/high-power-18650-battery-module-diy-pcb-kit-75x)
-- ~£170 [Ardusimple RTK](https://www.ardusimple.com/rtk-open-source-hardware/) [ZED-F9P Sparkfun RTK] Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
 - ~£30 [9dof IMU](https://thepihut.com/products/icm20948-9dof-motion-sensor-breakout) [ROS2 ](https://discourse.ros.org/t/ros-tinkerforge-imu-v2-bricks-driver/15539)
-
-
-# Optional extras
-- ~£?00  [Open weeding Delta](https://github.com/Agroecology-Lab/Open-Weeding-Delta)
-- ~£40 Meshtastic for [RTK comms](https://meshtastic.discourse.group/) latency a problem?
 
 # OS / Basic nav
 - [Dashing on Jetson Nano](https://github.com/ANI717/Headless-Jetson-Nano-Setup)
 - [Tensorflow model to follow crop rows - Outputs Cmd_vel](https://github.com/ANI717/ANI717_Robotics#design-diagram)
 - [Swappy ROS2 Rover for Ackerman drive - Subscribes Cmd_vel](https://github.com/mgonzs13/ros2_rover)
 
-# Sign up
+# Optional extras
+- ~£170 [Ardusimple RTK](https://www.ardusimple.com/rtk-open-source-hardware/) [ZED-F9P Sparkfun RTK] Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
+- ~£?? Open weeding Linear rail
+- ~£?00  [Open weeding Delta](https://github.com/Agroecology-Lab/Open-Weeding-Delta)
+- ~£40 Meshtastic for [RTK comms](https://meshtastic.discourse.group/) latency a problem?
+
+# Upgrades
+- ~£??? [6x LEO rover wheels & BLDC motor TBC](https://forum.fictionlab.pl/t/rover-motor-model/152/4)
+- ~£20 [Open Core running uROS](https://github.com/rosmo-robot/Open-Core-M5stack/blob/main/README.md)
+- ~£90 [3 x dual channel 5A SimpleFOC motor controllers](https://github.com/rosmo-robot/Rosmo_ESC)
+- ~£400 Open source [Jetson baseboard](https://capablerobot.com/products/nx-baseboard/) start with a Nano compute module, upgrade if needed. 
+
+# Contribute
 If you're interested in developing Swappy for BLDC/ ROS2 please 
 [Comment on BLDC/ hardware here](https://github.com/Roger-random/Sawppy_Rover/discussions/30)
 [Comment on OS/ROS2](https://github.com/Roger-random/Sawppy_Rover/discussions/32)
