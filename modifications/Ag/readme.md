@@ -26,6 +26,10 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 - [Artificial intelligence for weed detection](http://ictactjournals.in/paper/IJIVP_Vol_11_Iss_2_Paper_3_2299_2305.pdf)
 - [CV datasets](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets)
 
+![layout](https://user-images.githubusercontent.com/400875/155237332-3ecc8d33-3de2-46df-a034-e8a6f25317ae.jpeg)
+Arrangement of 75cm bed, showing two rows of crops, rover & paths for rover.
+
+
 # Upgrades (later)
 - ~£780 [6x LEO rover wheels & BLDC](https://www.leorover.tech/shop/rover-wheel-v-2-0-kit) & [BLDC motor TBC](https://forum.fictionlab.pl/t/rover-motor-model/152/4)
 - ~£20 [Open Core running uROS](https://github.com/rosmo-robot/Open-Core-M5stack/blob/main/README.md)
