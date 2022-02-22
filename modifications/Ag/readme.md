@@ -10,7 +10,7 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 - ~£100+ Jehu [18650 battery pack](https://jag35.com/collections/pcb-based-products/products/high-power-18650-battery-module-diy-pcb-kit-75x)
 - ~£30 [9dof IMU](https://thepihut.com/products/icm20948-9dof-motion-sensor-breakout) [ROS2 ](https://discourse.ros.org/t/ros-tinkerforge-imu-v2-bricks-driver/15539)
 
-# OS & Visual servo nav along single row of young crop
+# OS & Visual servo navigation along single row of young crop
 - [Dashing on Jetson Nano](https://github.com/ANI717/Headless-Jetson-Nano-Setup)
 - [Tensorflow model to follow crop rows - Outputs Cmd_vel](https://github.com/ANI717/ANI717_Robotics#design-diagram)
 - [Swappy ROS2 Rover for Ackerman drive - Subscribes Cmd_vel](https://github.com/mgonzs13/ros2_rover)
@@ -19,10 +19,11 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 - Linear actuator [openbuilds](https://www.aliexpress.com/item/32838215862.html)
 - IP67 rated [Nema23](https://community.simplefoc.com/t/incremental-encoders/1737/4?u=sam)
 - Laser from [Neje](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
-- [Dataset](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets)
+- [CV datasets](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets)
+- Todo: CV to control robot speed. When green is detected between the crop row; slow/stop, move laser to detected position, burn weed. Then continue.
 
 # Upgrades
-- ~£780 [6x LEO rover wheels](https://www.leorover.tech/shop/rover-wheel-v-2-0-kit) & [BLDC motor TBC](https://forum.fictionlab.pl/t/rover-motor-model/152/4)
+- ~£780 [6x LEO rover wheels & BLDC](https://www.leorover.tech/shop/rover-wheel-v-2-0-kit) & [BLDC motor TBC](https://forum.fictionlab.pl/t/rover-motor-model/152/4)
 - ~£20 [Open Core running uROS](https://github.com/rosmo-robot/Open-Core-M5stack/blob/main/README.md)
 - ~£90 [3 x dual channel 5A SimpleFOC motor controllers](https://github.com/rosmo-robot/Rosmo_ESC)
 - ~£400 Open source [Jetson baseboard](https://capablerobot.com/products/nx-baseboard/) start with a Nano compute module, upgrade if needed. 
@@ -35,9 +36,9 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 
 # Contribute
 If you're interested in developing Swappy for BLDC/ ROS2 please 
-[Comment on BLDC/ hardware here](https://github.com/Roger-random/Sawppy_Rover/discussions/30)
-[Comment on OS/ROS2](https://github.com/Roger-random/Sawppy_Rover/discussions/32)
-[Comment on Ag navigation](https://discourse.ros.org/t/navigation-for-precision-farming-in-open-fields/15138/15?u=samuk) 
+- [Comment on BLDC/ hardware here](https://github.com/Roger-random/Sawppy_Rover/discussions/30)
+- [Comment on OS/ROS2](https://github.com/Roger-random/Sawppy_Rover/discussions/32)
+- [Comment on Ag navigation](https://discourse.ros.org/t/navigation-for-precision-farming-in-open-fields/15138/15?u=samuk) 
 
 
 # Ag Navigation 
@@ -46,22 +47,22 @@ Initial use case is:
 
 - 75cm wide deep compost mulch beds. (as common in Agroecological production)
 - Weeding needed in babyleaf lettuce and brassica.
-- Could be direct sown by Sawppy, pehaps line following a strip of tight white tape.
 - Bed layout: <10cm wheel> <22.5 bed area> <10cm wheel> <22.5 bed area> <10cm wheel>
-- Typically 2x rows of crop in each 22.5cm bed area.
+- 1x row of crop in  centre of each 22.5cm bed area.
 
 ![Visual & ML](https://pbs.twimg.com/media/FIRSEUpXoA8Sf_V?format=jpg&name=900x900)
 
 The core of this navigation strategy is the VisualServoing 
 
-- [visual servoing](https://github.com/harsha-vk/weeder_bot) 
+
+
+# Notes
+- [vk-weeder](https://github.com/harsha-vk/weeder_bot) 
+- [ROS2 RTK](https://github.com/aussierobots/ublox_dgnss) - [Teb-Local-Planner](https://github.com/rst-tu-dortmund/teb_local_planner/tree/foxy-devel)
+- [Radxa CM3 module](https://www.cnx-software.com/2021/11/07/radxa-cm3-raspberry-pi-cm4-alternative/) in [Carrier board](https://hackaday.io/project/165108-carrier-board-for-the-raspberry-pi-compute-module)
+- [Robot_localization ROS2](https://github.com/cra-ros-pkg/robot_localization/tree/ros2)
 - [https://github.com/NMBURobotics/vox_nav](vox_nav)
 - [Acorn Motherboard?](https://github.com/Twisted-Fields/acorn-robot-electronics/blob/main/README.md) Unclear what value added if going ROS2 route.
 - [ROS1 earth_rover_localization](https://github.com/earthrover/earth_rover_localization/tree/master/earth_rover_localization)
 
-# Notes
-- [Vk-weeder](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets
-- [ROS2 RTK](https://github.com/aussierobots/ublox_dgnss) - [Teb-Local-Planner](https://github.com/rst-tu-dortmund/teb_local_planner/tree/foxy-devel)
-- [Radxa CM3 module](https://www.cnx-software.com/2021/11/07/radxa-cm3-raspberry-pi-cm4-alternative/) in [Carrier board](https://hackaday.io/project/165108-carrier-board-for-the-raspberry-pi-compute-module)
-- [Robot_localization](https://github.com/cra-ros-pkg/robot_localization/tree/ros2)
 
