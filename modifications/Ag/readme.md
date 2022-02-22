@@ -19,9 +19,11 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 - Linear actuator [openbuilds](https://www.aliexpress.com/item/32838215862.html)
 - IP67 rated [Nema23](https://community.simplefoc.com/t/incremental-encoders/1737/4?u=sam)
 - Laser from [Neje](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
+- [Dataset](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets)
 
 # Optional extras
 - ~£170 [Ardusimple RTK](https://www.ardusimple.com/rtk-open-source-hardware/) [ZED-F9P Sparkfun RTK] Or maybe [$$Ark](https://arkelectron.com/product/ark-rtk-gps/)
+-  ~£400 [Marvelmind?](https://marvelmind.com/product/starter-set-super-mp-3d/)
 - ~£?00  [Open weeding Delta](https://github.com/Agroecology-Lab/Open-Weeding-Delta)
 - ~£40 Meshtastic for [RTK comms](https://meshtastic.discourse.group/) latency a problem?
 
@@ -38,6 +40,7 @@ If you're interested in developing Swappy for BLDC/ ROS2 please
 [Comment on Ag navigation](https://discourse.ros.org/t/navigation-for-precision-farming-in-open-fields/15138/15?u=samuk) 
 
 # Notes
+- [Vk-weeder](https://github.com/Agroecology-Lab/Open-Weeding-Delta#datasets
 - [ROS2 RTK](https://github.com/aussierobots/ublox_dgnss) - [Teb-Local-Planner](https://github.com/rst-tu-dortmund/teb_local_planner/tree/foxy-devel)
 - [Radxa CM3 module](https://www.cnx-software.com/2021/11/07/radxa-cm3-raspberry-pi-cm4-alternative/) in [Carrier board](https://hackaday.io/project/165108-carrier-board-for-the-raspberry-pi-compute-module)
 - [Robot_localization](https://github.com/cra-ros-pkg/robot_localization/tree/ros2)
@@ -56,7 +59,7 @@ Initial use case is:
 
 The core of this navigation strategy is the VisualServoing 
 
-- [visual servoing](https://github.com/PRBonn/visual-crop-row-navigation#readme) 
+- [visual servoing](https://github.com/harsha-vk/weeder_bot) 
 - [https://github.com/NMBURobotics/vox_nav](vox_nav)
 - [Acorn Motherboard?](https://github.com/Twisted-Fields/acorn-robot-electronics/blob/main/README.md) Unclear what value added if going ROS2 route.
 - [ROS1 earth_rover_localization](https://github.com/earthrover/earth_rover_localization/tree/master/earth_rover_localization)
