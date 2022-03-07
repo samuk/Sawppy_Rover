@@ -18,7 +18,7 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 # Initial actuator hardware
 - Linear actuator [openbuilds](https://www.aliexpress.com/item/32838215862.html)
 - IP67 rated [Nema23](https://community.simplefoc.com/t/incremental-encoders/1737/4?u=sam)
-- Laser from [Neje](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine)
+- Laser from [Neje](https://neje.shop/products/40w-laser-module-laser-head-for-cnc-laser-cutter-engraver-woodworking-machine) [20w](https://www.xtool.com/products/20w-diode-laser-module?ref=pxfux0gvju&utm_source=youtube&utm_medium=livedemo&utm_campaign=0303_LT_20W)
 
 # Initial actuator CV
 - Todo: CV to control robot speed. When green is detected between the crop row; slow/stop, move laser to detected position, burn weed. Then continue.
