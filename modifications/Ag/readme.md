@@ -30,8 +30,10 @@ Example videos of [Sawppy](https://www.youtube.com/watch?v=kUGr7XmU-Sk) or [Auss
 Arrangement of 75cm bed, showing two rows of crops, rover & paths for rover.
 
 
-# Upgrades (later)
-- ~£780 [6x LEO rover wheels & BLDC](https://www.leorover.tech/shop/rover-wheel-v-2-0-kit) & [BLDC motor TBC](https://forum.fictionlab.pl/t/rover-motor-model/152/4)
+# Upgrades
+
+-  [Nema23 BLDC](https://www.osmtec.com/nema-23-round-brushless-dc-motor/)
+-  [Nema23 Gearbox](https://www.aliexpress.com/item/4001223933513.html)
 - ~£20 [Open Core running uROS](https://github.com/rosmo-robot/Open-Core-M5stack/blob/main/README.md)
 - ~£90 [3 x dual channel 5A SimpleFOC motor controllers](https://github.com/rosmo-robot/Rosmo_ESC)
 - ~£400 Open source [Jetson baseboard](https://capablerobot.com/products/nx-baseboard/) start with a Nano compute module, upgrade if needed. 
