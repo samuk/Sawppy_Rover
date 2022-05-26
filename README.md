@@ -1,7 +1,9 @@
 
-# Ag Sawppy
-This repo exists to hold [Ag readme](https://github.com/samuk/Sawppy_Rover/blob/main/modifications/Ag/readme.md) see also [Discussions](https://github.com/Roger-random/Sawppy_Rover/discussions) 
+# Ag rover
+This repo exists to hold [4x4 Ag readme](https://github.com/samuk/Sawppy_Rover/blob/main/modifications/Ag/4x4.md) 
 
+
+I started out thinking about upgrading the Sawppy but have since changed direction. I'll tidy this up later.
 
 # Sawppy the Rover
 
